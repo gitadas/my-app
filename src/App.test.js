@@ -39,6 +39,4 @@ describe('Main', () => {
     const { getByText } = render(<Main />);
     const sampleImg = screen.getByAltText('sampleImage');
     expect(sampleImg).toBeInTheDocument();
-    expect(sampleImg.src).toContain('flower.jpg'); // Assuming 'flower.jpg' is the correct path
-  });  
-});
+    expect(sampleImg.src).toContain('flower.jpg'); // Assuming 'flower.jpg' is the cor

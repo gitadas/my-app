@@ -9,8 +9,7 @@ const Navigation = () => {
     <div>
       <h3>Navigation</h3>
       <ul>{navList}</ul>
-      {undefinedVariable}
-    </div>
+     </div>
     );
 };
 

@@ -1,0 +1,8 @@
+
+.Welcome {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 15%;
+}

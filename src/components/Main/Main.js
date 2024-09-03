@@ -4,9 +4,8 @@ import Weather from "./WeatherInformation";
 import CommunityBlog from "./CommunityBlog";
 import Blog from "./Blog"; // Imported this for the blog
 import ContactUs from "./ContactUs";
-import sampleImage from "../../assets/images/stat_img_1.png"
-import Button1 from "../Button1/Button1.js"
-import Button2 from "../Button2/Button2.js"
+import sampleImage from "../../assets/images/flower.jpg"
+import ImageDisplayer from "./ImageDisplayer/ImageDisplayer"
 
 const Main = () => {
   const welcomeText = `Welcome Students!`;
@@ -15,19 +14,18 @@ const Main = () => {
                     local community for locals and tourists.`; 
   return (
     <div className="MainSection">
+      
       <Welcome />
         <div className="Welcome">
-            <Welcome text={welcomeText}/>
+            <Welcome text={welcomeText}/>             
         </div>
-      <div>
-         <img src={sampleImage}/>
+      <div> 
+       <img src={sampleImage} alt="sampleImage"/>          
+       {/*<ImageDisplayer image={sampleImage} alt="sampleimage"/>*/}
       </div>  
-      <div>
-      <h3>Higher Order Components</h3>
-      <Button1 />
-      <Button2 />
-      </div>
+      
       <Weather />
+      <Welcome/>
       <CommunityBlog />
         <div className="Blog">
             <Blog text={blogText}/>

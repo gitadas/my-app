@@ -1,0 +1,17 @@
+/* Header */
+.Header {
+    background-image: url("../../assets/images/backgroundBakery.jpg");
+    background-position: bottom;
+    background-size: cover;
+    padding: 50px;
+    color: #2c2f65;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  .Header img {
+    border-radius: 50px;
+  }
+  

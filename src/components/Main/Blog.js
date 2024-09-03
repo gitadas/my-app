@@ -2,10 +2,9 @@ import React from "react";
 import { useState } from "react";
 
 function Blog (props) {
-
   const maxChars = 35;
-
   const [hidden, setHidden] = useState(true);
+  console.log(maxChars, hidden);
   
   if (props.text.length <= maxChars) {
     return (
