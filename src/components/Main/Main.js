@@ -20,7 +20,7 @@ const Main = () => {
             <Welcome text={welcomeText}/>             
         </div>
       <div> 
-       <img src={sampleImage} alt="sampleImage"/>          
+       <img src={sampleImage} alt="sampleImage" width={250} height={250} />          
        {/*<ImageDisplayer image={sampleImage} alt="sampleimage"/>*/}
       </div>  
       
