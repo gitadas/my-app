@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImageDisplayer = (props) => {
     const imgStyles = {
-        width:"10%",        
+        width:"40%",        
     }
 
     return (

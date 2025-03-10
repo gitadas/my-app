@@ -3,9 +3,9 @@ import Welcome from "./Welcome";
 import Weather from "./WeatherInformation";
 import CommunityBlog from "./CommunityBlog";
 import Blog from "./Blog"; // Imported this for the blog
-import ContactUs from "./ContactUs";
 import sampleImage from "../../assets/images/flower.jpg"
 import ImageDisplayer from "./ImageDisplayer/ImageDisplayer"
+
 
 const Main = () => {
   const welcomeText = `Welcome Students!`;
@@ -21,7 +21,7 @@ const Main = () => {
         </div>
       <div> 
        <img src={sampleImage} alt="sampleImage" width={250} height={250} />          
-       {/*<ImageDisplayer image={sampleImage} alt="sampleimage"/>*/}
+       {/*<ImageDisplayer image={sampleImage} alt="sampleimage"/>*/} 
       </div>  
       
       <Weather />
@@ -29,8 +29,7 @@ const Main = () => {
       <CommunityBlog />
         <div className="Blog">
             <Blog text={blogText}/>
-        </div>
-      <ContactUs />
+        </div>      
     </div>
   );
 };

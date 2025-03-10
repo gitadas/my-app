@@ -3,19 +3,20 @@ import './App.css';
 import Navigation from "./components/Navigation/Navigation";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
-import Aside from "./components/Aside/Aside";
 import Footer from "./components/Footer/Footer";
+import Modal from './components/Global/Modal';
 
 function App() {
   return (
     <div className="App">
         <Header />
-        <Navigation/>
+        <Navigation />
         <Main />
-        <Aside />
+        <Modal/>
         <Footer />        
     </div>
   );
 }
 
 export default App;
+

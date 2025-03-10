@@ -5,7 +5,7 @@ export default function Header() {
   const title = "Designs Bakery"
   return (
     <div className="Header">
-        <h1>Creative {title}</h1> {/*Example of JavaScript expression and a comment*/}
+        <h1>Creative {title + "in Melbourne"}</h1> {/*Example of JavaScript expression and a comment*/}
     </div>
   );
 } 
